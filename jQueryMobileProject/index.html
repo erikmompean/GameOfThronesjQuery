@@ -14,10 +14,47 @@
 		<!-- Include the jQuery Mobile library -->
 		<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
 
-		<title></title>
-
+		<title>Game of Thrones mobile</title>
+		<link rel="stylesheet" type="text/css" href="./assets/css/index.css">
 	</head>
 	<body>
+		<div data-role="page" id="pageone">
+		  <div data-role="header">
+		    <h1>Game of Thrones</h1>
+		    <div data-role="navbar">
+		      <ul>
+		        <li><a href="#">Houses</a></li>
+		        <li><a href="#">Kings</a></li>
+		        <li><a href="#">Battles</a></li>
+		      </ul>
+		    </div>
+		  </div>
 
+			<div data-role="main" class="ui-content">
+				<p class="center">Welcome to my unofficial Game of thrones page. Be careful, may contain spoilers.
+				The page is full of information about the battle of the five kings and include content of the 2nd and 3th book.
+				</p>
+				<img  class="five-kings" src="./assets/images/five_kings.jpg">
+			</div>
+
+			<div class="ui-grid-b">
+			    <div class="ui-block-a">
+			    	<a href="#" class="ui-btn ui-corner-all ui-shadow"><img src="./assets/images/houses-icon.png" style="height:60px"></a><br>	
+			    </div>
+			    <div class="ui-block-b">
+			        <a href="#" class="ui-btn ui-corner-all ui-shadow"><img src="./assets/images/battle-icon.png" style="height:60px"></a><br>			      
+			    </div>
+			    <div class="ui-block-c">
+			        <a href="#" class="ui-btn ui-corner-all ui-shadow"><img src="./assets/images/iron-throne-icon.svg" style="height:60px"></a><br>
+			    </div>
+			</div>
+			<div data-role="footer">
+
+				<h1>About me</h1>
+				<div href="#" class="ui-btn ui-btn-inline ui-corner-all ui-shadow center-button"><img src="./assets/images/github.png" class="mini-btn"></div><br>
+				
+			</div>
+
+		</div> 
 	</body>
 </html>
