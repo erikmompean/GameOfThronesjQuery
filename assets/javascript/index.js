@@ -143,4 +143,31 @@ $(document).ready(function(){
     if( !validateEmail(email)) {alert("Email incorrect")}
       else{alert("Sended")}
   });
+  // Nav Bar
+  $(function() {
+    $('#scroll1').click(function() {
+      var pos = $('#scrolled1').offset().top;
+      $('html, body').animate({'scrollTop' : pos},'2000');
+      return false;
+    });
+    $('#scroll2').click(function() {
+        var pos = $('#scrolled2').offset().top;
+        $('html, body').animate({'scrollTop' : pos},'1000');
+          return false;
+    });
+    $('#scroll3').click(function() {
+      var pos = $('#scrolled3').offset().top;
+      $('html, body').animate({'scrollTop' : pos},'2000');
+        return false;
+    });
+    $('#scroll4').click(function() {
+      var pos = $('#scrolled4').offset().top;
+      $('html, body').animate({'scrollTop' : pos},'10000');
+        return false;
+    });
+  });
+  if ($(window).width() < 960) {
+    window.location = "./jQueryMobileProject/index.html";
+  }
+
 });
