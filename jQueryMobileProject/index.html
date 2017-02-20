@@ -19,7 +19,7 @@
 		<link rel="stylesheet" type="text/css" href="./assets/css/index.css">
 	</head>
 	<body>
-		<div data-role="page" id="pageone">
+		<div data-role="page" id="home">
 		  <div data-role="header">
 		    <h1>Game of Thrones</h1>
 		    <div data-role="navbar">
@@ -32,7 +32,7 @@
 		  </div>
 
 			<div data-role="main" class="ui-content">
-				<p class="center">Welcome to my unofficial Game of thrones page. Be careful, may contain spoilers.
+				<p class="center-text">Welcome to my unofficial Game of thrones page. Be careful, may contain spoilers.
 				The page is full of information about the battle of the five kings and include content of the 2nd and 3th book.
 				</p>
 				<img  class="five-kings" src="./assets/images/five_kings.jpg">
@@ -40,10 +40,10 @@
 
 			<div class="ui-grid-b">
 			    <div class="ui-block-a">
-			    	<a href="#" class="ui-btn ui-corner-all ui-shadow"><img src="./assets/images/houses-icon.png" style="height:60px"></a><br>	
+			    	<a href="#houses" class="ui-btn ui-corner-all ui-shadow"><img src="./assets/images/houses-icon.png" style="height:60px"></a><br>	
 			    </div>
 			    <div class="ui-block-b">
-			        <a href="#" class="ui-btn ui-corner-all ui-shadow"><img src="./assets/images/battle-icon.png" style="height:60px"></a><br>			      
+			        <a href="#battles" class="ui-btn ui-corner-all ui-shadow"><img src="./assets/images/battle-icon.png" style="height:60px"></a><br>			      
 			    </div>
 			    <div class="ui-block-c">
 			        <a href="#" class="ui-btn ui-corner-all ui-shadow"><img src="./assets/images/iron-throne-icon.svg" style="height:60px"></a><br>
@@ -52,10 +52,155 @@
 			<div data-role="footer">
 
 				<h1>About me</h1>
-				<div href="#" class="ui-btn ui-btn-inline ui-corner-all ui-shadow center-button"><img src="./assets/images/github.png" class="mini-btn"></div><br>
+				<div href="#" class="ui-btn ui-btn-inline ui-corner-all ui-shadow center-button git-icon"><img src="./assets/images/github.png" class="mini-btn"></div><br>
 
 			</div>
 
+		</div>
+		<!-- Houses -->
+		<div data-role="page" id="houses">
+			<div data-role="header">
+			    <a href="#home" class="ui-btn ui-corner-all ui-shadow ui-icon-home ui-btn-icon-left">Home</a>
+		    	<h1>Houses</h1>
+			</div>
+
+			<div data-role="main" class="ui-content">
+				<div data-role="main" class="ui-content">
+					<p class="center-text">
+					Here are the three most important Houses in the war of Five Kings
+					These three houses have potentially participated in big battles among them.
+					</p>
+			  		<a href="#house_stark" class="ui-btn ui-corner-all ui-shadow"><img src="../assets/images/house_stark.png" style="height:60px"></a>
+			  		<a href="#house_lannister" class="ui-btn ui-corner-all ui-shadow"><img src="../assets/images/house_lannister.png" style="height:60px"></a>
+			  		<a href="#house_baratheon" class="ui-btn ui-corner-all ui-shadow"><img src="../assets/images/house_baratheon.png" style="height:60px"></a>
+				</div>
+			</div>
+
+		  <div data-role="footer">
+		    <h1>Footer Text</h1>
+		  </div>
+		</div> 
+		<!--House stark-->
+		<div data-role="page" id="house_stark">
+			<div data-role="header">
+				<a href="#houses" class="ui-btn ui-corner-all ui-shadow ui-icon-back ui-btn-icon-left">Back</a>
+		    	<h1>House stark</h1>
+			</div>
+
+			<div data-role="main" class="ui-content">
+				<div data-role="main" class="ui-content">
+					<img  class="five-kings" src="./assets/images/House-Stark-Shield.png">
+					<h2 class="center-text">STARK</h2>
+					<p class="center-text">House Stark of Winterfell is a Great House of Westeros, ruling over the vast region known as the North and the Vale as Kings in the North from their seat in Winterfell, recently retaken by the Starks from House Bolton.</p>
+				</div>
+			</div>
+
+		  <div data-role="footer">
+		    <h1>Footer Text</h1>
+		  </div>
+		</div> 
+		<!--Lannister stark-->
+		<div data-role="page" id="house_lannister">
+			<div data-role="header">
+				<a href="#houses" class="ui-btn ui-corner-all ui-shadow ui-icon-back ui-btn-icon-left">Back</a>
+		    	<h1>House Lannister</h1>
+			</div>
+
+			<div data-role="main" class="ui-content">
+				<div data-role="main" class="ui-content">
+					<img  class="five-kings" src="./assets/images/House-Lannister-Shield.png">
+					<h2 class="center-text">LANNISTER</h2>
+					<p class="center-text">House Lannister of Casterly Rock is one of the Great Houses of Westeros, one of its richest and most powerful families and oldest dynasties. It is also the current royal house of the Seven Kingdoms following the extinction of House Baratheon of King's Landing.</p>
+				</div>
+			</div>
+
+		  <div data-role="footer">
+		    <h1>Footer Text</h1>
+		  </div>
+		</div>
+		<div data-role="page" id="house_baratheon">
+			<div data-role="header">
+				<a href="#houses" class="ui-btn ui-corner-all ui-shadow ui-icon-back ui-btn-icon-left">Back</a>
+		    	<h1>House Lannister</h1>
+			</div>
+
+			<div data-role="main" class="ui-content">
+				<div data-role="main" class="ui-content">
+					<img  class="five-kings" src="./assets/images/House-Baratheon-Shield.png">
+					<h2 class="center-text">BARATHEON</h2>
+					<p class="center-text">House Baratheon's sigil is a black stag on a gold background and their house motto is "Ours is the Fury". When Robert ascended to the Iron Throne, a gold crown was added to the stag, denoting their status as the royal house.</p>
+				</div>
+			</div>
+
+		  <div data-role="footer">
+		    <h1>Footer Text</h1>
+		  </div>
+		</div> 
+		<!-- Battles -->
+		<div data-role="page" id="battles">
+			<div data-role="header">
+			    <a href="#home" class="ui-btn ui-corner-all ui-shadow ui-icon-home ui-btn-icon-left">Home</a>
+		    	<h1>Battles</h1>
+			</div>
+
+			<div data-role="main" class="ui-content">
+				<div data-role="main" class="ui-content">
+					<p class="center-text">Thats only a few battles of a great war, sorted by time:</p>
+					<div data-role="header">
+		    			<h1>Battle in</h1>
+		    			<h1>The Golden Tooth</h1>
+					</div>
+					<p class="center-text">A battle in the hills below the Golden Tooth is the opening battle of the War of the Five Kings and the Lannister campaign in the riverlands.</p>
+					<br>
+					<img src="../assets/images/Golden_Tooth.png" class="five-kings">
+					<br>
+					<p class="center-text">Not much is known much about the battle, but the attack seems to have been devastating. Ser Jaime Lannister, commanding the Lannister forces, descends on the outnumbered rivermen and breaks them. Lord Vance is slain during the fight and Lord Piper retreats back to Riverrun with the remnants of his forces, with Jaime following on his heels. Meanwhile, Tywin brings another Lannister army up from the south.</p>
+
+					<div data-role="header">
+		    			<h1>Battle on</h1>
+		    			<h1>The Green Fork</h1>
+					</div>
+					<p class="center-text">The battle on the Green Fork is an early battle in the War of the Five Kings and is the first to involve forces of House Stark. The battle occurs along the Green Fork of the River Trident in the riverlands.</p>
+					<br>
+					<img src="../assets/images/Green_Fork.jpg" class="five-kings">
+					<br>
+					<p class="center-text">The Stark army, commanded by Lord Roose Bolton, marches throughout the night in an effort to take the Lannister army by surprise. They arrive in the early morning and launch their attack. Tyrion Lannister observes the banners of Houses Hornwood, Karstark, Cerwyn, Glover, Frey, and Stark.</p>
+
+					<div data-role="header">
+		    			<h1>Battle in </h1>
+		    			<h1>Whispering Wood</h1>
+					</div>
+					<p class="center-text">The battle in the Whispering Wood, often simply called the Whispering Wood after its forested setting, is a pivotal battle during the War of the Five Kings. The Stark victory relieves Riverrun while shattering one of the Lannister armies in the riverlands.	</p>
+					<br>
+					<img src="../assets/images/Whispering_Wood.jpg" class="five-kings">
+					<br>
+					<p class="center-text">Jaime is captured, along with near a hundred knights and a dozen lords bannermen including: Lord Gawen Westerling, Lord Quenten Banefort, Ser Garth Greenfield, Lord Regenard Estren, Ser Tytos Brax, Mallor the Dornishman, Willem Lannister, and the Lannister cousins Cleos Frey and Tion Frey.</p>
+
+					<div data-role="header">
+		    			<h1>Assassination of</h1>
+		    			<h1>Renly I</h1>
+					</div>
+					<p class="center-text">Renly's plan goes awry, however, when Stannis unexpectedly besieges Storm's End, forcing Renly to respond. Catelyn convinces the brothers to parley outside Storm's End, but Renly makes light of the situation, refusing to back down from his claim and advising his older brother to give up and eat a peach.	</p>
+					<br>
+					<img src="../assets/images/Renly_slain.jpg" class="five-kings">
+					<br>
+					<p class="center-text">While preparing for battle with Stannis's forces the next dawn, Renly is slain by an animated shadow conjured by his brother's sorceress adviser, Melisandre. Ser Cortnay Penrose, the castellan of Storm's End, disbelieves that Renly has died, but his body goes missing before it can be presented as proof.</p>
+
+					<div data-role="header">
+		    			<h1>Battle of</h1>
+		    			<h1>The Blackwater</h1>
+					</div>
+					<p class="center-text">The Battle of the Blackwater is the largest battle in the War of the Five Kings. The battle is fought between forces loyal to Stannis Baratheon and those loyal to Joffrey Baratheon. Stannis's army is on the verge of winning a decisive victory by defeating the rather large garrison of King's Landing, but is taken by surprise and all but annihilated by the joint forces of Tywin Lannister and the Tyrells.</p>
+					<br>
+					<img src="../assets/images/blackwater.jpg" class="five-kings">
+					<br>
+					<p class="center-text">Despite Stannis Baratheon's survival, the battle is a major defeat for House Baratheon of Dragonstone, as he is able to retreat with only a fraction of his army and a token fleet to Dragonstone.</p>
+				</div>
+			</div>
+
+		  <div data-role="footer">
+		    <h1>Footer Text</h1>
+		  </div>
 		</div> 
 	</body>
 </html>
