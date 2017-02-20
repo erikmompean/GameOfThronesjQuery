@@ -1,124 +1,287 @@
-<!DOCTYPE html>
+<!DOCTYPE html5>
 <html>
-	<head>
-		<!-- jQuery -->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 
-		<!-- Bootstrap Links -->
+<head>
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 
-		<!-- Latest compiled and minified JavaScript -->
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-		
-		
-		<!-- Latest compiled and minified CSS -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Bootstrap Links -->
 
-		<!-- Optional theme -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-
-		<!-- CSS3 -->
-		<link rel="stylesheet" type="text/css" href="assets/css/index.css">
-
-		<!-- Slick CSS3 -->
-		<link rel="stylesheet" type="text/css" href="./slick/slick.css">
-  		<link rel="stylesheet" type="text/css" href="./slick/slick-theme.css">
-
-		<!-- Javascript -->
-		<script type="text/javascript" src="assets/javascript/index.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
 
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-		<title>Donacion de Sangre</title>
-	</head>
-	<body>
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
-		<ul class="uls">
+    <!-- CSS3 -->
+    <link rel="stylesheet" type="text/css" href="assets/css/index.css">
 
-				<li class="lis"><a href="#">Casas</a></li>
-				<li class="lis"><a href="#">Reyes</a></li>
-			  	<li class="lis"><a href="#">Batallas</a></li>
+    <!-- Slick CSS3 -->
+    <link rel="stylesheet" type="text/css" href="./slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css">
 
-		</ul>
-		<div class="container-fluid">
-			<div class="first-image"></div>
-		</div>
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12 text-center">
-					<h1 class="title">Houses</h1>
-				</div>		
-			</div>
-			<div class="row title">
-				<div class="col-md-6">
-					<img src="./assets/images/house_stark.png" class="stark-image">
-				</div>
-				<div class="col-md-4 text-center">
-					<h2>Stark</h2>
-					<p class="explanation">
-					House Stark of Winterfell is a Great House of Westeros, ruling over the vast region known as the North and the Vale as Kings in the North from their seat in Winterfell, recently retaken by the Starks from House Bolton.
-					</p>
-				</div>
-			</div>
-		</div>
-		<div class="container-fluid">
-			<div class="row lannister title">
-				<div class="col-md-6">
-					<img src="./assets/images/house_lannister.png" class="lannister-image">
-				</div>
-				<div class="col-md-4 text-center lannister-color2">
-					<h2 class="title">Lannister</h2>
-					<p class="explanation lannister-color lannister-explain">
-					House Lannister of Casterly Rock is one of the Great Houses of Westeros, one of its richest and most powerful families and oldest dynasties. It is also the current royal house of the Seven Kingdoms following the extinction of House Baratheon of King's Landing.
-					</p>
-				</div>
-			</div>
-		</div>
-		<div class="container">
-			<div class="row">	
-			</div>
-			<div class="row title">
-				<div class="col-md-6">
-					<img src="./assets/images/house_baratheon.png" class="baratheon-image">
-				</div>
-				<div class="col-md-4 text-center">
-					<h2>Baratheon</h2>
-					<p class="explanation">
-					House Baratheon's sigil is a black stag on a gold background and their house motto is "Ours is the Fury". When Robert ascended to the Iron Throne, a gold crown was added to the stag, denoting their status as the royal house.
-					</p>
-				</div>
-			</div>
+    <!-- Javascript -->
+    <script type="text/javascript" src="assets/javascript/index.js"></script>
 
-			<div class="col-md-12 text-center">
-				<h1 class="title">Other Houses</h1>
-			</div>
 
-	    	<div class="row">
 
-			  <section class="center slider">
-			    <div>
-			    	<img src="assets/images/house_targaryen.png">
-			    </div>
-			    <div>
-			    	<img src="assets/images/house_tully.png">
-			    </div>
-			    <div>
-			    	<img src="assets/images/house_martell.png">
-			    </div>
-			    <div>
-			    	<img src="assets/images/house_tyrell.png">
-			    </div>
-			    <div>
-			    	<img src="assets/images/house_frey.png">
-			    </div>
-			    <div>
-			    	<img src="assets/images/house_arryn.png">
-			    </div>
-			  </section>
-			</div>
-		</div>
-		
-		<!--Fi Footer-->
-		<script src="./slick/slick.js" type="text/javascript" charset="utf-8"></script>
-	</body>
+    <title>War of the Five Kings-GoT</title>
+</head>
+
+<body>
+
+    <ul class="uls">
+
+        <li class="lis"><a href="#">Casas</a>
+        </li>
+        <li class="lis"><a href="#">Reyes</a>
+        </li>
+        <li class="lis"><a href="#">Batallas</a>
+        </li>
+
+    </ul>
+    <div class="container-fluid">
+        <div class="first-image"></div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h1 class="title">Houses</h1>
+            </div>
+        </div>
+        <div class="row title">
+            <div class="col-md-6">
+                <img src="./assets/images/house_stark.png" class="stark-image">
+            </div>
+            <div class="col-md-4 text-center">
+                <h2>Stark</h2>
+                <p class="explanation">
+                    House Stark of Winterfell is a Great House of Westeros, ruling over the vast region known as the North and the Vale as Kings in the North from their seat in Winterfell, recently retaken by the Starks from House Bolton.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="lannister">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="./assets/images/house_lannister.png" class="lannister-image">
+                </div>
+                <div class="col-md-4 text-center lannister-color2">
+                    <h2 class="title">Lannister</h2>
+                    <p class="explanation lannister-color lannister-explain">
+                        House Lannister of Casterly Rock is one of the Great Houses of Westeros, one of its richest and most powerful families and oldest dynasties. It is also the current royal house of the Seven Kingdoms following the extinction of House Baratheon of King's Landing.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+        </div>
+        <div class="row title space-top">
+            <div class="col-md-6">
+                <img src="./assets/images/house_baratheon.png" class="baratheon-image">
+            </div>
+            <div class="col-md-4 text-center">
+                <h2>Baratheon</h2>
+                <p class="explanation">
+                    House Baratheon's sigil is a black stag on a gold background and their house motto is "Ours is the Fury". When Robert ascended to the Iron Throne, a gold crown was added to the stag, denoting their status as the royal house.
+                </p>
+            </div>
+        </div>
+
+        <div class="col-md-12 text-center">
+            <h1 class="title">Other Houses</h1>
+        </div>
+
+        <div class="row">
+
+            <section class="center slider">
+                <div>
+                    <img src="assets/images/house_targaryen.png">
+                </div>
+                <div>
+                    <img src="assets/images/house_tully.png">
+                </div>
+                <div>
+                    <img src="assets/images/house_martell.png">
+                </div>
+                <div>
+                    <img src="assets/images/house_tyrell.png">
+                </div>
+                <div>
+                    <img src="assets/images/house_frey.png">
+                </div>
+                <div>
+                    <img src="assets/images/house_arryn.png">
+                </div>
+            </section>
+        </div>
+    </div>
+    <!--LIADA -->
+    <div class="back1">
+        <hr class="featurette-divider">
+        <h2 class="titol" id="Lideres">Lideres</h2>
+        <!--row 1-->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 col-md-offset-1 scll round-corner leader">
+                    <h2>Robb Stark</h2>
+                    <p>El rey Robb Stark fue el hijo primogénito de Lord Eddard Stark y Lady Catelyn Tully, siendo desde su nacimiento el heredero de Invernalia y el Norte. Tiene dos hermanas, Sansa y Arya; dos hermanos, Brandon y Rickon, y un medio-hermano bastardo, Jon Nieve. Era frecuentemente acompañado por su lobo huargo Viento Gris, quien siempre le acompañaba en la batalla.Su emblema personal como Rey en el Norte fue una cabeza de lobo huargo grisácea sobre campo de plata</p>
+                </div>
+                <div class="col-md-4 robb"></div>
+            </div>
+        </div>
+    </div>
+    <!--row 2-->
+    <div class="back2">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 stannis"></div>
+                <div class="col-md-5 scll round-corner leader">
+                    <h2>Stannis Baratheon</h2>
+                    <p>El rey Stannis Baratheon es Rey de los Siete Reinos desde 298 AC, año en que su hermano el rey Robert I murió y él se proclamó su legítimo heredero. Es el segundo hijo de Lord Steffon Baratheon y Lady Cassana Estermont, y hermano de Robert y Renly. Después de la Rebelión de Robert, el nuevo rey le nombró Señor de Rocadragón. Sirvió en el Consejo Privado de su hermano como Consejero Naval.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--row 3-->
+    <div class="back3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 col-md-offset-1 scll round-corner leader">
+                    <h2>Joffrey Baratheon</h2>
+                    <p>El rey Joffrey Baratheon fue Rey de los Siete Reinos desde 298 AC hasta su muerte en 300 AC. Fue, oficialmente, el hijo primogénito del rey Robert Baratheon y la reina Cersei Lannister; sin embargo, su padre biológico es Jaime Lannister, el hermano de la reina. Tiene dos hermanos, Myrcella y Tommen.</p>
+                </div>
+                <div class="col-md-4 joffrey col-md-offset-1 "></div>
+            </div>
+        </div>
+    </div>
+
+    <!--row 4-->
+    <div class="back4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 renly"></div>
+                <div class="col-md-5 scll round-corner leader">
+                    <h2>Renly Baratheon</h2>
+                    <p>El rey Renly Baratheon fue Rey de los Siete Reinos desde 298 AC, año en que su hermano el rey Robert I murió y se proclamó su heredero, hasta su propia muerte en 299 AC. Fue el hijo menor de Lord Steffon Baratheon y Lady Cassana Estermont. Luego de la Guerra del Usurpador fue nombrado Señor de Bastión de Tormentas. Sirvió en el Consejo Privado de Robert I como Consejero de Edictos.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--row 5-->
+    <div class="back5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 col-md-offset-1 scll round-corner leader">
+                    <h2>Theon Greyjoy</h2>
+                    <p>El rey Joffrey Baratheon fue Rey de los Siete Reinos desde 298 AC hasta su muerte en 300 AC. Fue, oficialmente, el hijo primogénito del rey Robert Baratheon y la reina Cersei Lannister; sin embargo, su padre biológico es Jaime Lannister, el hermano de la reina. Tiene dos hermanos, Myrcella y Tommen</p>
+                </div>
+                <div class="col-md-4 theon col-md-offset-1 "></div>
+            </div>
+        </div>
+    </div>
+    <!-- MAP -->
+    
+    <div class="map-bg">
+        <div class="container">
+            <h3 class="text-center titol">Battles</h3>
+            <div class="row space-top">
+                <img class="westeros col-md-6" src="./assets/images/westeros.png" usemap="#westeros">
+
+                <map name="westeros">
+                  <area shape="rect" coords="240,57,285,86" id="btn1">
+                  <area shape="rect" coords="223,127,275,155" id="btn2">
+                  <area shape="rect" coords="131,186,182,211" id="btn3">
+                  <area shape="rect" coords="337,273,383,302" id="btn4">
+                  <area shape="rect" coords="380,415,431,445" id="btn5">
+                </map>
+                <div class="col-md-6">
+                    <div class="panel scll text-center" id="panel1">
+                        <h2>Battle on the Green Fork</h2>
+                        <img src="./assets/images/Green_Fork.jpg" class="battle-img">
+                        <p>The battle on the Green Fork is an early battle in the War of the Five Kings and is the first to involve forces of House Stark. The battle occurs along the Green Fork of the River Trident in the riverlands.</p>
+                        <br>
+                        <p>The Stark army, commanded by Lord Roose Bolton, marches throughout the night in an effort to take the Lannister army by surprise. They arrive in the early morning and launch their attack. Tyrion Lannister observes the banners of Houses Hornwood, Karstark, Cerwyn, Glover, Frey, and Stark.</p>
+                    </div>
+                    <div class="panel scll text-center" id="panel2">                        
+                        <h2>Battle in the Whispering Wood</h2>
+                        <img src="./assets/images/Whispering_Wood.jpg" class="battle-img">
+                        <p>The battle in the Whispering Wood, often simply called the Whispering Wood after its forested setting, is a pivotal battle during the War of the Five Kings. The Stark victory relieves Riverrun while shattering one of the Lannister armies in the riverlands.</p>
+                        <br>
+                        <p>Jaime is captured, along with near a hundred knights and a dozen lords bannermen including: Lord Gawen Westerling, Lord Quenten Banefort, Ser Garth Greenfield, Lord Regenard Estren, Ser Tytos Brax, Mallor the Dornishman, Willem Lannister, and the Lannister cousins Cleos Frey and Tion Frey.</p>
+                    </div>
+                    <div class="panel scll text-center" id="panel3">                        
+                        <h2>Battle in the hills below the Golden Tooth</h2>
+                        <img src="./assets/images/Golden_Tooth.png" class="battle-img">
+                        <p>A battle in the hills below the Golden Tooth is the opening battle of the War of the Five Kings and the Lannister campaign in the riverlands.</p>
+                        <br>
+                        <p>Not much is known much about the battle, but the attack seems to have been devastating. Ser Jaime Lannister, commanding the Lannister forces, descends on the outnumbered rivermen and breaks them. Lord Vance is slain during the fight and Lord Piper retreats back to Riverrun with the remnants of his forces, with Jaime following on his heels. Meanwhile, Tywin brings another Lannister army up from the south.</p>
+                    </div>
+                    <div class="panel scll text-center" id="panel4">                        
+                        <h2>Battle of the Blackwater</h2>
+                        <img src="./assets/images/blackwater.jpg" class="battle-img">
+                        <p>The Battle of the Blackwater is the largest battle in the War of the Five Kings. The battle is fought between forces loyal to Stannis Baratheon and those loyal to Joffrey Baratheon. Stannis's army is on the verge of winning a decisive victory by defeating the rather large garrison of King's Landing, but is taken by surprise and all but annihilated by the joint forces of Tywin Lannister and the Tyrells.</p>
+                        <br>
+                        <p>Despite Stannis Baratheon's survival, the battle is a major defeat for House Baratheon of Dragonstone, as he is able to retreat with only a fraction of his army and a token fleet to Dragonstone.</p>
+                    </div>
+                    <div class="panel scll text-center" id="panel5">                        
+                        <h2>Assassination of Renly I</h2>
+                        <img src="./assets/images/Renly_slain.jpg" class="battle-img">
+                        <br>
+                        <p>Renly's plan goes awry, however, when Stannis unexpectedly besieges Storm's End, forcing Renly to respond.[4] Catelyn convinces the brothers to parley outside Storm's End, but Renly makes light of the situation, refusing to back down from his claim and advising his older brother to give up and eat a peach.[24] While preparing for battle with Stannis's forces the next dawn, Renly is slain by an animated shadow conjured by his brother's sorceress adviser, Melisandre.[13] Ser Cortnay Penrose, the castellan of Storm's End, disbelieves that Renly has died, but his body goes missing before it can be presented as proof.</p>
+                    </div>
+                </div>
+            </div>
+            <h3 class="text-center titol">Contact With me!</h3>
+            <div class="scll round-corner contact">
+                <div class="row">
+                    <div class="col-md-6">
+                        <label>Email:</label>
+                        <input type="text" name="email" class="form-control" id="email">
+                    </div>
+                    <div class="col-md-6">
+                        <label>Name:</label>
+                        <input type="text" name="name" class="form-control" id="name">
+                    </div>
+                </div>
+                <div class="row textarea-contact">
+                    <div class="col-md-12">
+                        <label>Content:</label>
+                        <textarea class="form-control" id="contactTxtArea"></textarea>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3"><button type="submit" class="btn btn-default" id="contactBtn">Submit</button></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer id="about">
+        <div class="foot1">
+            <ul class="footuls">
+                <li class="footli mar"><a href="https://www.facebook.com/erik.mompeanruiz" target="_blank"><img src="assets/images/fb.png" class="logo" ></a></li>
+                <li class="footli mar"><a href="https://twitter.com/erikmompeanruiz" target="_blank"><img src="assets/images/twitter.png" class="logo"></a></li>
+                <li class="footli mar"><a href="https://github.com/erikmompean/GameOfThronesjQuery" target="_blank"><img src="assets/images/github.png" class="logo"></a></li>
+            </ul>
+        </div>
+        <div class="foot2">
+            <ul class="footul">
+                <li class="footli">Alumne:</li>
+                <li class="footli">Erik Mompean</li>
+                <li class="footli">erikmompean@gmail.com</li>
+                <li class="footli">La Salle Gracia</li>
+            </ul>
+        </div>
+    </footer>
+    <!--Fi Footer-->
+    <script src="./slick/slick.js" type="text/javascript" charset="utf-8"></script>
+</body>
 
 </html>
